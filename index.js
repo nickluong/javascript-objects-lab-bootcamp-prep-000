@@ -1,11 +1,11 @@
-recipesvar playlist = {artist: 'song'};
+var recipes = {};
 
-function updatePlaylist(playlist, artist, song) {
-  playlist[artist] = song
-  return playlist
+function updateObjectWithKeyAndValue(object, key, value) {
+  object[key] = value
+  return object
 }
 
-function removeFromPlaylist(playlist, artist) {
-  delete playlist[artist]
-  return playlist
+function deleteFromObjectByKey(object, key) {
+  delete object[key]
+  return object
 }
