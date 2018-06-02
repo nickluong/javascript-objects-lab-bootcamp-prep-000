@@ -7,7 +7,7 @@ function updateObjectWithKeyAndValue(object, key, value) {
 
 function updateObjectWithKeyAndValue(object, key, value){
   let newObj = object
-  newObj[key] = value
+  newObj.key = value
   return newObj
 }
 
